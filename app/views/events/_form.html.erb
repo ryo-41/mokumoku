@@ -18,7 +18,6 @@
   </div>
   <% if current_user.gender == 'woman' %>
     <div class="mb-3">
-      <p>女性限定</p>
       <%= f.label :only_woman, '女性限定' %>
       <%= f.check_box :only_woman, class: 'form-check-input' %>
     </div>
